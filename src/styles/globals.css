@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  @page {
+    size: landscape;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
